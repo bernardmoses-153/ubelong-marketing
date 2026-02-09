@@ -1,0 +1,120 @@
+import type { Config } from "tailwindcss";
+
+const config: Config = {
+  darkMode: ["class"],
+  content: [
+    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        // uBelong Brand Colors (from iOS app)
+        primary: {
+          DEFAULT: "#0D9488",
+          50: "#E6F7F6",
+          100: "#CCEFED",
+          200: "#99DFDB",
+          300: "#66CFC9",
+          400: "#33BFB7",
+          500: "#0D9488",
+          600: "#0A766D",
+          700: "#085952",
+          800: "#053B36",
+          900: "#031E1B",
+        },
+        accent: {
+          DEFAULT: "#F59E0B",
+          50: "#FEF7E6",
+          100: "#FDEECC",
+          200: "#FBDD99",
+          300: "#F9CC66",
+          400: "#F7BB33",
+          500: "#F59E0B",
+          600: "#C47E09",
+          700: "#935F07",
+          800: "#623F04",
+          900: "#312002",
+        },
+        success: {
+          DEFAULT: "#22C55E",
+          50: "#E8F9EF",
+          100: "#D1F3DF",
+          200: "#A3E7BF",
+          300: "#75DB9F",
+          400: "#47CF7F",
+          500: "#22C55E",
+          600: "#1B9D4B",
+          700: "#147638",
+          800: "#0E4E26",
+          900: "#072713",
+        },
+        danger: {
+          DEFAULT: "#EF4444",
+          50: "#FEE9E9",
+          100: "#FDD3D3",
+          200: "#FBA7A7",
+          300: "#F97B7B",
+          400: "#F74F4F",
+          500: "#EF4444",
+          600: "#BF3636",
+          700: "#8F2929",
+          800: "#601B1B",
+          900: "#300E0E",
+        },
+        info: {
+          DEFAULT: "#3B82F6",
+          50: "#EBF2FE",
+          100: "#D7E6FD",
+          200: "#AFCCFB",
+          300: "#87B3F9",
+          400: "#5F99F7",
+          500: "#3B82F6",
+          600: "#2F68C5",
+          700: "#234E94",
+          800: "#183462",
+          900: "#0C1A31",
+        },
+        purple: {
+          DEFAULT: "#8B5CF6",
+          50: "#F3EFFE",
+          100: "#E7DFFD",
+          200: "#CFBFFB",
+          300: "#B79FF9",
+          400: "#9F7FF7",
+          500: "#8B5CF6",
+          600: "#6F4AC5",
+          700: "#533794",
+          800: "#382562",
+          900: "#1C1231",
+        },
+      },
+      fontFamily: {
+        sans: ["var(--font-inter)", "system-ui", "sans-serif"],
+      },
+      animation: {
+        "drift-pulse": "drift-pulse 2s ease-in-out infinite",
+        "fade-in": "fade-in 0.5s ease-out",
+        "slide-up": "slide-up 0.5s ease-out",
+      },
+      keyframes: {
+        "drift-pulse": {
+          "0%, 100%": { opacity: "1" },
+          "50%": { opacity: "0.7" },
+        },
+        "fade-in": {
+          "0%": { opacity: "0" },
+          "100%": { opacity: "1" },
+        },
+        "slide-up": {
+          "0%": { opacity: "0", transform: "translateY(20px)" },
+          "100%": { opacity: "1", transform: "translateY(0)" },
+        },
+      },
+    },
+  },
+  plugins: [],
+};
+
+export default config;
