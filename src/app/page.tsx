@@ -699,7 +699,7 @@ export default function HomePage() {
               <div className="cta-l">
                 <h2 className="sh">Nobody drifts alone anymore.</h2>
                 <p className="sl">Whether you&apos;re a doctor with patients who stop showing up, a family managing diabetes, or a parent navigating autism — we&apos;re building this for you.</p>
-                <a href="mailto:hello@ubelong.to" className="cta-btn">hello@ubelong.to →</a>
+                <a href="mailto:bernard@ubelong.ai" className="cta-btn">bernard@ubelong.ai →</a>
                 <p className="cta-note">uBelong Inc. • Delaware C-Corp • Bangalore, India</p>
               </div>
               <div className="cta-r">
@@ -739,7 +739,7 @@ export default function HomePage() {
         <div className="w">
           <div className="fl">
             <a href="https://ubelong.to">ubelong.to</a>
-            <a href="mailto:hello@ubelong.to">Contact</a>
+            <a href="mailto:bernard@ubelong.ai">Contact</a>
           </div>
           <p>© 2026 uBelong Inc. Building systems that care.</p>
         </div>

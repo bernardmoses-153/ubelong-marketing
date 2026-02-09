@@ -3,7 +3,7 @@ export const SITE_CONFIG = {
   tagline: "When patients drift, we activate the people around them",
   description: "uBelong detects when patients drift from care plans and rebuilds the support systems around them.",
   url: "https://ubelong.to",
-  email: "hello@ubelong.to",
+  email: "bernard@ubelong.ai",
 } as const;
 
 export const NAV_LINKS = [
