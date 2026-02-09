@@ -407,7 +407,7 @@ export default function HomePage() {
         <div className="w">
           <div className="hero-top">
             <div className="hero-l">
-              <div className="htag"><i></i> Health wedge live in Bangalore</div>
+              <div className="htag"><i></i> Now live in Bangalore</div>
               <h1>Patients don&apos;t fail.<br /><em>The systems around them do.</em></h1>
               <p className="sub">uBelong detects when someone drifts from their care plan — then coaches every person around them. Diet, fitness, medication, therapy. We build the herd that keeps them on track.</p>
               <div className="hero-btns">
